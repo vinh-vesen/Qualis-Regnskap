@@ -1,7 +1,7 @@
 {
   "name": "qualis-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/vinh-vesen/Qualis-Regnskap.git",
+  "homepage": "https://vinh-vesen.github.io/Qualis-Regnskap",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
