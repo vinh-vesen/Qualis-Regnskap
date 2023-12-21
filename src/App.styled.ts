@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
 export const StyledApp = styled.div(() => ({
-    backgroundColor: "red",
-    height: "100%",
+    backgroundColor: "#EDE7DB",
+    minHeight: "200vh",
 }))

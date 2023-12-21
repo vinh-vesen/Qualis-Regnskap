@@ -1,1 +1,0 @@
-export { QualisHeader } from "./QualisHeader"

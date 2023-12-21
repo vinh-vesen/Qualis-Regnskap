@@ -1,14 +1,12 @@
 import React from "react";
-import {StyledApp} from "./App.styled"
-import { QualisHeader } from "./components/QualisHeader";
+import { StyledApp } from "./App.styled";
+import { Header } from "./components/Header";
 const App = () => {
   return (
     <StyledApp>
-      <header className="App-header">
-        <QualisHeader />
-      </header>
+      <Header />
     </StyledApp>
   );
-}
+};
 
 export default App;
