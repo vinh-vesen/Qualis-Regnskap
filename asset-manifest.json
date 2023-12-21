@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Qualis-Regnskap/static/css/main.f855e6bc.css",
-    "main.js": "/Qualis-Regnskap/static/js/main.eae23698.js",
+    "main.css": "/Qualis-Regnskap/static/css/main.e6c13ad2.css",
+    "main.js": "/Qualis-Regnskap/static/js/main.96e90b49.js",
     "static/js/787.0d38bf86.chunk.js": "/Qualis-Regnskap/static/js/787.0d38bf86.chunk.js",
-    "static/media/logo.svg": "/Qualis-Regnskap/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/mainLogo-bottom.png": "/Qualis-Regnskap/static/media/mainLogo-bottom.ebe571a86eeac5350289.png",
+    "static/media/mainLogo-top.png": "/Qualis-Regnskap/static/media/mainLogo-top.6167c25964ffb8ea6962.png",
     "index.html": "/Qualis-Regnskap/index.html",
-    "main.f855e6bc.css.map": "/Qualis-Regnskap/static/css/main.f855e6bc.css.map",
-    "main.eae23698.js.map": "/Qualis-Regnskap/static/js/main.eae23698.js.map",
+    "main.e6c13ad2.css.map": "/Qualis-Regnskap/static/css/main.e6c13ad2.css.map",
+    "main.96e90b49.js.map": "/Qualis-Regnskap/static/js/main.96e90b49.js.map",
     "787.0d38bf86.chunk.js.map": "/Qualis-Regnskap/static/js/787.0d38bf86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.eae23698.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.96e90b49.js"
   ]
 }
