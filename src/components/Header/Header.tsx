@@ -1,5 +1,9 @@
 import React, { useEffect, useRef } from "react";
-import { StyledHeader, StyledHeaderBottom } from "./Header.styled";
+import {
+  StyledHeader,
+  StyledHeaderBottom,
+  StyledIconContainer,
+} from "./Header.styled";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 
 export const Header = () => {
@@ -13,7 +17,7 @@ export const Header = () => {
           header.style.position = "fixed";
           header.style.top = "0";
         } else {
-          header.style.position = "unset";
+          header.style.position = "relative";
           header.style.top = "unset";
         }
       }
@@ -41,7 +45,9 @@ export const Header = () => {
           height="60px"
           width="430px"
         />
-        <LocalPhoneIcon />
+        <StyledIconContainer>
+          <LocalPhoneIcon />
+        </StyledIconContainer>
       </StyledHeaderBottom>
     </StyledHeader>
   );
