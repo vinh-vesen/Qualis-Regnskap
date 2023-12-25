@@ -3,8 +3,11 @@ import {
   StyledHeader,
   StyledHeaderBottom,
   StyledIconContainer,
+  StyledMainLogoTopImg,
+  StyledMainLogoBottomImg,
 } from "./Header.styled";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import EmailIcon from "@mui/icons-material/Email";
 
 export const Header = () => {
   const ref = useRef(null);
@@ -31,22 +34,19 @@ export const Header = () => {
   return (
     <StyledHeader>
       <div>
-        <img
+        <StyledMainLogoTopImg
           src={require("../../mainLogo-top.png")}
           alt="qualis-logo"
-          height="160px"
-          width="430px"
         />
       </div>
       <StyledHeaderBottom id="bottomHeader">
-        <img
+        <StyledMainLogoBottomImg
           src={require("../../mainLogo-bottom.png")}
           alt="qualis-logo"
-          height="60px"
-          width="430px"
         />
         <StyledIconContainer>
           <LocalPhoneIcon />
+          <EmailIcon />
         </StyledIconContainer>
       </StyledHeaderBottom>
     </StyledHeader>

@@ -28,5 +28,28 @@ export const StyledIconContainer = styled.div(() => {
     display: "flex",
     alignItems: "center",
     padding: "0 16px",
+    gap: 8,
+  };
+});
+
+export const StyledMainLogoTopImg = styled.img(() => {
+  return {
+    height: 160,
+    width: 430,
+    "@media (max-width: 900px)": {
+      height: 80,
+      width: 200,
+    },
+  };
+});
+
+export const StyledMainLogoBottomImg = styled.img(() => {
+  return {
+    height: 60,
+    width: 430,
+    "@media (max-width: 900px)": {
+      height: 30,
+      width: 200,
+    },
   };
 });
