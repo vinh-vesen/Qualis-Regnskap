@@ -1,0 +1,1 @@
+export { InfoBoxAccounting } from "./InfoBoxAccounting";

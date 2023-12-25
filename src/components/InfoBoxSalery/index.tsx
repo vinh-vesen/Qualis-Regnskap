@@ -1,0 +1,1 @@
+export { InfoBoxSalery } from "./InfoBoxSalery";

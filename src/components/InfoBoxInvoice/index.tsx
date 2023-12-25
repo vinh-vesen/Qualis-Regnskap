@@ -1,0 +1,1 @@
+export { InfoBoxInvoice } from "./InfoBoxInvoice";

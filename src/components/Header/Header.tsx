@@ -1,4 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
+import useMediaQuery from "@mui/material/useMediaQuery";
+
 import {
   StyledHeader,
   StyledHeaderBottom,
@@ -10,13 +12,14 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
 
 export const Header = () => {
-  const ref = useRef(null);
+  const isMobile = useMediaQuery("(max-width:900px)");
 
   useEffect(() => {
     const isSticky = () => {
       var header = document.getElementById("bottomHeader");
       if (header) {
-        if (window.scrollY > 164) {
+        const scrollMatch = isMobile ? 84 : 164;
+        if (window.scrollY > scrollMatch) {
           header.style.position = "fixed";
           header.style.top = "0";
         } else {
