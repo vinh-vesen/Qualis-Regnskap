@@ -11,6 +11,7 @@ import { InfoBoxAccounting } from "./components/InfoBoxAccounting";
 import { InfoBoxSalery } from "./components/InfoBoxSalery";
 import { InfoBoxInvoice } from "./components/InfoBoxInvoice";
 import { InfoBoxAnnualSettlement } from "./components/InfoBoxAnnualSettlement";
+import { ServiceList } from "./components/ServiceList";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
             <InfoBoxAnnualSettlement />
           </StyledInfoBox>
         </StyledInfoBoxList>
+        <ServiceList />
       </StyledContent>
     </StyledApp>
   );
