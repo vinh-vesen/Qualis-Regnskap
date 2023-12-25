@@ -5,7 +5,7 @@ import { StyledText } from "./InfoBoxInvoice.styled";
 export const InfoBoxInvoice = () => {
   return (
     <>
-      <ReceiptIcon />
+      <ReceiptIcon fontSize="large" />
       <StyledText>
         <h2>Fakturering</h2>
         <p>

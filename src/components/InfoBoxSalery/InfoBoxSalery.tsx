@@ -5,7 +5,7 @@ import { StyledText } from "./InfoBoxSalery.styled";
 export const InfoBoxSalery = () => {
   return (
     <>
-      <PaidIcon />
+      <PaidIcon fontSize="large" />
       <StyledText>
         <h2>Lønn</h2>
         <p>
