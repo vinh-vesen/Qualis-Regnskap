@@ -4,14 +4,13 @@ import ListItem from "@mui/material/ListItem";
 
 export const StyledApp = styled("div")({
   backgroundColor: "white",
-  minHeight: "200vh",
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
 });
 
 export const StyledContent = styled("div")({
-  padding: "0 16px",
+  padding: "32px",
   maxWidth: 1200,
 });
 
