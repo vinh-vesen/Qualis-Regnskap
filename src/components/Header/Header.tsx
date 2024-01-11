@@ -10,6 +10,7 @@ import {
 } from "./Header.styled";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
+import IconButton from "@mui/material/IconButton";
 
 export const Header = () => {
   const isMobile = useMediaQuery("(max-width:900px)");
@@ -48,8 +49,12 @@ export const Header = () => {
           alt="qualis-logo"
         />
         <StyledIconContainer>
-          <LocalPhoneIcon />
-          <EmailIcon />
+          <IconButton href="tel:+4792226533">
+            <LocalPhoneIcon />
+          </IconButton>
+          <IconButton href="mailto:nhung@qualisregnskap.no">
+            <EmailIcon />
+          </IconButton>
         </StyledIconContainer>
       </StyledHeaderBottom>
     </StyledHeader>

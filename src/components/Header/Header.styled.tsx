@@ -7,6 +7,7 @@ export const StyledHeader = styled("header")({
   backgroundColor: "white",
   height: 256,
   width: "100%",
+  paddingTop: 16,
   "@media (max-width: 900px)": {
     height: 146,
   },
@@ -32,6 +33,10 @@ export const StyledIconContainer = styled("div")({
   alignItems: "center",
   padding: "0 16px",
   gap: 8,
+  "@media (max-width: 900px)": {
+    padding: "0 4px",
+    gap: 4,
+  },
 });
 
 export const StyledMainLogoTopImg = styled("img")({
