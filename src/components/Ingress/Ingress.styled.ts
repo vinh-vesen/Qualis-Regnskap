@@ -8,7 +8,13 @@ export const StyledIngress = styled("div")({
   justifyContent: "center",
 });
 
-export const StyledIngressText = styled("p")({
+export const StyledContent = styled("div")({
   maxWidth: 700,
   padding: "32px",
+});
+
+export const StyledImg = styled("img")({
+  margin: "16px -20px",
+  width: 200,
+  height: "fit-content",
 });

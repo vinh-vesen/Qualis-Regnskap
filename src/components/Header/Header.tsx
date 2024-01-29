@@ -49,10 +49,16 @@ export const Header = () => {
           alt="qualis-logo"
         />
         <StyledIconContainer>
-          <IconButton href="tel:+4792226533">
+          <IconButton
+            href="tel:+4792226533"
+            aria-label="phone number for contact"
+          >
             <LocalPhoneIcon />
           </IconButton>
-          <IconButton href="mailto:nhung@qualisregnskap.no">
+          <IconButton
+            href="mailto:nhung@qualisregnskap.no"
+            aria-label="email for contact"
+          >
             <EmailIcon />
           </IconButton>
         </StyledIconContainer>
