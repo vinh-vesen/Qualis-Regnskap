@@ -16,5 +16,5 @@ export const StyledContent = styled("div")({
 export const StyledImg = styled("img")({
   margin: "16px -20px",
   width: 200,
-  height: "fit-content",
+  height: 115,
 });
