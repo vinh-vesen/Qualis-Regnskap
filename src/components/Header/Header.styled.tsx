@@ -34,6 +34,9 @@ export const StyledIconContainer = styled("div")({
   padding: "0 16px",
   gap: 8,
   "@media (max-width: 900px)": {
+    position: "static",
+    justifyContent: "center",
+    marginTop: "8px",
     padding: "0 4px",
     gap: 4,
   },

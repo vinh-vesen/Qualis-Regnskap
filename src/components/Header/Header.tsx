@@ -9,6 +9,7 @@ import {
   StyledMainLogoBottomImg,
 } from "./Header.styled";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import EmailIcon from "@mui/icons-material/Email";
 import IconButton from "@mui/material/IconButton";
 
@@ -60,6 +61,12 @@ export const Header = () => {
             aria-label="email for contact"
           >
             <EmailIcon />
+          </IconButton>
+          <IconButton
+            href="https://www.instagram.com/qualisregnskap"
+            aria-label="instagram for contact"
+          >
+            <InstagramIcon />
           </IconButton>
         </StyledIconContainer>
       </StyledHeaderBottom>

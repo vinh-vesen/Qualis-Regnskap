@@ -59,6 +59,14 @@ export const ThirdPartyLinks = () => {
             />
           </a>
         </StyledListItem>
+        <StyledListItem>
+          <a href="https://www.sticos.no/" target="_blank">
+            <StyledImg
+              src={require("../../logos/logo-sticos.png")}
+              alt="sticos-logo"
+            />
+          </a>
+        </StyledListItem>
       </StyledList>
     </StyledThirdPartyLinks>
   );
