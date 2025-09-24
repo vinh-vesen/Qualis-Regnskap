@@ -14,8 +14,8 @@ export const ServiceList = () => {
       <h2>Andre tjenester</h2>
       <h3>Vi bistår også med:</h3>
       <ul>
-        {serviceList.map((s) => (
-          <li>
+        {serviceList.map((s, i) => (
+          <li key={`serviceItem_${i}`}>
             <p>{s}</p>
           </li>
         ))}
