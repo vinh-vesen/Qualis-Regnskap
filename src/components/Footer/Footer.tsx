@@ -1,6 +1,6 @@
 import React from "react";
 
-import { StyledFooter, StyledFooterLink, StyledLink } from "./Footer.styled";
+import { StyledFooter, StyledFooterLink } from "./Footer.styled";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -39,9 +39,6 @@ export const Footer = () => {
           <InstagramIcon />
           <Typography variant="h6">Qualis Regnskap</Typography>
         </StyledFooterLink>
-        <StyledLink href="#/personvernerklaering">
-          <Typography variant="h6">Personvernerklæring</Typography>
-        </StyledLink>
       </StyledFooter>
     </>
   );

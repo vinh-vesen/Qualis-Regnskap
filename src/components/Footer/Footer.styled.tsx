@@ -22,11 +22,3 @@ export const StyledFooterLink = styled(Link)({
   color: "white",
   gap: "8px",
 });
-
-export const StyledLink = styled(Link)({
-  width: "fit-content",
-  textDecorationColor: "white",
-  fontWeight: "700",
-  fontSize: 20,
-  color: "white",
-});
