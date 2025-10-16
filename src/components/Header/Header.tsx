@@ -47,12 +47,12 @@ export const Header = () => {
 
   return (
     <StyledHeader>
-      <div>
+      <a href="/" aria-label="Gå til hovedsiden">
         <StyledMainLogoTopImg
           src={require("../../mainLogo-top.png")}
           alt="qualis-logo"
         />
-      </div>
+      </a>
       <StyledHeaderBottom id="bottomHeader">
         <StyledMainLogoBottomImg
           src={require("../../mainLogo-bottom.png")}

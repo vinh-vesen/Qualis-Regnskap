@@ -7,7 +7,7 @@ export const StyledFooter = styled("footer")({
   alignItems: "center",
   flexDirection: "column",
   boxShadow: "0px 0px 0px 1px rgba(32, 33, 36, 0.28)",
-  backgroundColor: "#7b92a0",
+  backgroundColor: "#4A5C66",
   padding: "56px 0px",
   gap: "8px",
 });

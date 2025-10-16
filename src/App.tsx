@@ -1,21 +1,13 @@
 import React from "react";
-import {
-  StyledApp,
-  StyledContent,
-  StyledInfoBoxList,
-  StyledInfoBox,
-} from "./App.styled";
+import { StyledApp } from "./App.styled";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { Routes, Route } from "react-router-dom";
 
 import { Header } from "./components/Header";
-import { Ingress } from "./components/Ingress";
-import { InfoBoxAccounting } from "./components/InfoBoxAccounting";
-import { InfoBoxSalery } from "./components/InfoBoxSalery";
-import { InfoBoxInvoice } from "./components/InfoBoxInvoice";
-import { InfoBoxAnnualSettlement } from "./components/InfoBoxAnnualSettlement";
-import { ServiceList } from "./components/ServiceList";
-import { ThirdPartyLinks } from "./components/ThirdPartyLinks";
 import { Footer } from "./components/Footer";
+
+import { Home } from "./pages/Home/Home";
+import { CookiePolicy } from "./pages/CookiePolicy/CookiePolicy";
 
 const theme = createTheme();
 
@@ -24,25 +16,10 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <StyledApp>
         <Header />
-        <Ingress />
-        <StyledContent>
-          <StyledInfoBoxList>
-            <StyledInfoBox>
-              <InfoBoxAccounting />
-            </StyledInfoBox>
-            <StyledInfoBox>
-              <InfoBoxSalery />
-            </StyledInfoBox>
-            <StyledInfoBox>
-              <InfoBoxInvoice />
-            </StyledInfoBox>
-            <StyledInfoBox>
-              <InfoBoxAnnualSettlement />
-            </StyledInfoBox>
-          </StyledInfoBoxList>
-          <ServiceList />
-          <ThirdPartyLinks />
-        </StyledContent>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/personvernerklæring" element={<CookiePolicy />} />
+        </Routes>
         <Footer />
       </StyledApp>
     </ThemeProvider>
