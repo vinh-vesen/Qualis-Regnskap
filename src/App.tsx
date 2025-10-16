@@ -18,7 +18,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/personvernerklæring" element={<CookiePolicy />} />
+          <Route path="/personvernerklaering" element={<CookiePolicy />} />
         </Routes>
         <Footer />
       </StyledApp>
