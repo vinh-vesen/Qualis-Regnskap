@@ -39,7 +39,7 @@ export const Footer = () => {
           <InstagramIcon />
           <Typography variant="h6">Qualis Regnskap</Typography>
         </StyledFooterLink>
-        <StyledLink href="/personvernerklaering">
+        <StyledLink href="#/personvernerklaering">
           <Typography variant="h6">Personvernerklæring</Typography>
         </StyledLink>
       </StyledFooter>

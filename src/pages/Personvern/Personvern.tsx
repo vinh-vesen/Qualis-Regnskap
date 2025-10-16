@@ -1,7 +1,7 @@
 import React from "react";
-import { StyledContainer } from "./CookiePolicy.styled";
+import { StyledContainer } from "./Personvern.styled";
 
-export const CookiePolicy = () => {
+export const Personvern = () => {
   return (
     <StyledContainer>
       <h1>Personvernserklæring</h1>
