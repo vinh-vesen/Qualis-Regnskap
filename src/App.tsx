@@ -7,6 +7,7 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 
 import { Home } from "./pages/Home/Home";
+import { Personvern } from "./pages/Personvern/Personvern";
 
 const theme = createTheme();
 
@@ -18,6 +19,7 @@ const App = () => {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/personvernerklaering" element={<Personvern />} />
           </Routes>
         </Router>
         <Footer />
