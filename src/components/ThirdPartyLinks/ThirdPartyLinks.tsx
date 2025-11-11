@@ -12,7 +12,11 @@ export const ThirdPartyLinks = () => {
       <h2>Nyttige lenker</h2>
       <StyledList>
         <StyledListItem>
-          <a href="https://www.skatteetaten.no/" target="_blank">
+          <a
+            href="https://www.skatteetaten.no/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <StyledImg
               src={require("../../logos/logo-skatteetaten.png")}
               alt="skatteetaten-logo"
@@ -20,7 +24,7 @@ export const ThirdPartyLinks = () => {
           </a>
         </StyledListItem>
         <StyledListItem>
-          <a href="https://info.altinn.no/" target="_blank">
+          <a href="https://info.altinn.no/" target="_blank" rel="noreferrer">
             <StyledImg
               src={require("../../logos/logo-altinn.png")}
               alt="altinn-logo"
@@ -28,7 +32,7 @@ export const ThirdPartyLinks = () => {
           </a>
         </StyledListItem>
         <StyledListItem>
-          <a href="https://www.nav.no/" target="_blank">
+          <a href="https://www.nav.no/" target="_blank" rel="noreferrer">
             <StyledImg
               src={require("../../logos/logo-nav.png")}
               alt="nav-logo"
@@ -36,7 +40,7 @@ export const ThirdPartyLinks = () => {
           </a>
         </StyledListItem>
         <StyledListItem>
-          <a href="https://www.brreg.no/" target="_blank">
+          <a href="https://www.brreg.no/" target="_blank" rel="noreferrer">
             <StyledImg
               src={require("../../logos/logo-brreg.png")}
               alt="brreg-logo"
@@ -44,7 +48,11 @@ export const ThirdPartyLinks = () => {
           </a>
         </StyledListItem>
         <StyledListItem>
-          <a href="https://www.regnskapnorge.no/" target="_blank">
+          <a
+            href="https://www.regnskapnorge.no/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <StyledImg
               src={require("../../logos/logo-regnskap-Norge.png")}
               alt="regskap-Norge-logo"
@@ -52,7 +60,7 @@ export const ThirdPartyLinks = () => {
           </a>
         </StyledListItem>
         <StyledListItem>
-          <a href="https://www.tripletex.no/" target="_blank">
+          <a href="https://www.tripletex.no/" target="_blank" rel="noreferrer">
             <StyledImg
               src={require("../../logos/logo-tripletex.png")}
               alt="tripletex-logo"
@@ -60,7 +68,7 @@ export const ThirdPartyLinks = () => {
           </a>
         </StyledListItem>
         <StyledListItem>
-          <a href="https://www.sticos.no/" target="_blank">
+          <a href="https://www.sticos.no/" target="_blank" rel="noreferrer">
             <StyledImg
               src={require("../../logos/logo-sticos.png")}
               alt="sticos-logo"
