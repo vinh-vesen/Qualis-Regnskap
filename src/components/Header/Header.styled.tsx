@@ -5,24 +5,20 @@ export const StyledHeader = styled("header")({
   flexDirection: "column",
   alignItems: "center",
   backgroundColor: "white",
-  height: 256,
   width: "100%",
-  paddingTop: 16,
-  "@media (max-width: 900px)": {
-    height: 146,
-  },
 });
 
-export const StyledHeaderBottom = styled("div")({
+export const StyledHeaderBottom = styled("nav")({
   backgroundColor: "inherit",
   width: "100%",
   display: "grid",
   gridTemplateRow: "repeat(3, 1fr)",
   justifyContent: "center",
-  boxShadow: "0 1px 0 0 rgba(32, 33, 36, 0.28)",
-  position: "relative",
+  position: "sticky",
+  top: 0,
   padding: "16px 0",
-  zIndex: 100,
+  zIndex: 999,
+  boxShadow: "0 4px 6px -2px rgba(0, 0, 0, 0.15)",
 });
 
 export const StyledIconContainer = styled("div")({
