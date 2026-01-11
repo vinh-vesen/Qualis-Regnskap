@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.a48ee555.js",
+    "main.js": "/static/js/main.6434a0bd.js",
     "static/js/488.612d695b.chunk.js": "/static/js/488.612d695b.chunk.js",
     "static/media/logo-nav.png": "/static/media/logo-nav.19c7ee0e4605eb80f91b.png",
     "static/media/regnskap.norge-medlem.png": "/static/media/regnskap.norge-medlem.5c6c0bae57f16715424a.png",
     "static/media/logo-regnskap-Norge.png": "/static/media/logo-regnskap-Norge.21d785fa4adb1b951421.png",
     "static/media/logo-altinn.png": "/static/media/logo-altinn.d5f7b6071dd34bca8d4e.png",
     "static/media/logo-brreg.png": "/static/media/logo-brreg.f04b3caba6214d86c64e.png",
-    "static/media/mainLogo-bottom.png": "/static/media/mainLogo-bottom.ebe571a86eeac5350289.png",
     "static/media/logo-skatteetaten.png": "/static/media/logo-skatteetaten.5a546139f909fc862c50.png",
+    "static/media/qualisLogo.png": "/static/media/qualisLogo.0173b81b4693989a8372.png",
     "static/media/logo-tripletex.png": "/static/media/logo-tripletex.8f6043c150a22f4f3a0a.png",
-    "static/media/mainLogo-top.png": "/static/media/mainLogo-top.6167c25964ffb8ea6962.png",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.a48ee555.js.map": "/static/js/main.a48ee555.js.map",
+    "main.6434a0bd.js.map": "/static/js/main.6434a0bd.js.map",
     "488.612d695b.chunk.js.map": "/static/js/488.612d695b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a48ee555.js"
+    "static/js/main.6434a0bd.js"
   ]
 }
