@@ -2,10 +2,9 @@ import React from "react";
 
 import {
   StyledHeader,
+  StyledH1,
   StyledHeaderBottom,
-  StyledIconContainer,
   StyledMainLogoTopImg,
-  StyledMainLogoBottomImg,
 } from "./Header.styled";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -25,43 +24,37 @@ export const Header = () => {
   return (
     <>
       <StyledHeader>
-        <h1>
+        <StyledH1>
           <a href="/" aria-label="Gå til hovedsiden">
             <StyledMainLogoTopImg
-              src={require("../../mainLogo-top.png")}
+              src={require("../../qualisLogo.png")}
               alt="qualis-logo"
             />
           </a>
-        </h1>
+        </StyledH1>
       </StyledHeader>
-      <StyledHeaderBottom id="bottomHeader">
-        <StyledMainLogoBottomImg
-          src={require("../../mainLogo-bottom.png")}
-          alt="qualis-logo"
-        />
-        <StyledIconContainer>
-          <IconButton
-            href="tel:+4792226533"
-            aria-label="phone number for contact"
-            onClick={() => onClickTracking("phone")}
-          >
-            <LocalPhoneIcon />
-          </IconButton>
-          <IconButton
-            href="mailto:nhung@qualisregnskap.no"
-            aria-label="email for contact"
-            onClick={() => onClickTracking("email")}
-          >
-            <EmailIcon />
-          </IconButton>
-          <IconButton
-            href="https://www.instagram.com/qualisregnskap"
-            aria-label="instagram for contact"
-            onClick={() => onClickTracking("instagram")}
-          >
-            <InstagramIcon />
-          </IconButton>
-        </StyledIconContainer>
+      <StyledHeaderBottom>
+        <IconButton
+          href="tel:+4792226533"
+          aria-label="phone number for contact"
+          onClick={() => onClickTracking("phone")}
+        >
+          <LocalPhoneIcon />
+        </IconButton>
+        <IconButton
+          href="mailto:nhung@qualisregnskap.no"
+          aria-label="email for contact"
+          onClick={() => onClickTracking("email")}
+        >
+          <EmailIcon />
+        </IconButton>
+        <IconButton
+          href="https://www.instagram.com/qualisregnskap"
+          aria-label="instagram for contact"
+          onClick={() => onClickTracking("instagram")}
+        >
+          <InstagramIcon />
+        </IconButton>
       </StyledHeaderBottom>
     </>
   );
